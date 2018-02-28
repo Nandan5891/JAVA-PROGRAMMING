@@ -1,0 +1,27 @@
+A thread is an independent path of execution within a program
+
+# Many threads can run concurrently within a program
+
+## Multithreading refers to two or more tasks executing concurrently within a single program.
+===========================
+
+Thread can be implemented in two ways:
+First: Through Runnable Interface
+Second: Through Thread class
+=====================================================
+STATE OF THREAD ARE FOLLOWING:
+NEW THREAD
+RUNNABLE
+RUNNING
+DEAD
+
+=========================================================
+PRIORITY
+
+MIN_PRIORITY(1)
+NORM_PRIORITY(5)
+MAX_PRIORITY(10)
+==========================
+WE CAN MODIFY A THREADS PRORITY AT ANY TIME AFTER ITS CREATION USING THE SETPRIORITY () METHOD AND 
+RETRIEVE THE THREAD PRIORITY VALUE USING  GETPRIORITY() METHOD
+=========================================

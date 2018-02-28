@@ -1,0 +1,35 @@
+ Exception in java are any abnormal, unexpected events or extraordinary conditions that may
+ occur at runtime.
+  
+  
+ EXCEPTION HANDLING:
+ =====================
+ Java exception handling is used to handle error conditions in a program systematically by taking 
+ the program action
+ 
+ 
+ .
+ THROWABLE CLASS (Super class of all exception class)
+ ==================================================================
+ (*)The throwable class provides a String variable that can be set by subclass to provide a detail message
+ that provides more information of the exception occured.
+ 
+ (**)All classes Throwables define a one parameter constructor that takes a string as the detail message
+ 
+ (***)The class Throwable provides getMessage() function to retrieve an exception.
+ =============================================================================================
+ 
+ TYPES OF EXCEPTION:
+
+ There are two types of Exception first Is (1) Checked Exception which is known as Compile Time exception
+ Second is Unchecked Exception (RunTime Exception)
+ 
+ Remember:
+ ## For each try block there can be one or more catch block but only one finally block.
+ 
+ ## The catch block and finally block must always appear in conjunction with a try block
+ 
+  ### A try block must be followed by either at least one catch block or one finally block
+ 
+ #### The order exception handlers in the catch block must be from the most specific exception.
+ 

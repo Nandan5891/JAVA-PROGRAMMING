@@ -1,0 +1,19 @@
+Finalize:
+========
+Finalize is called just before garbage collector reclaim the object
+its the last chance for any object to perform clean up activity as realease system resources held and close the connection if open
+It defines in Java.lang.Object class
+Its the responsibility of developer to call superclass finalize method when we try to override the finalize method
+Finalize method called only once 
+We can force the JVM to call finalize method
+using System.runfinalization() and Runtime.getRuntime().runfinalization
+
+
+
+
+====================================
+FINALLY BLOCK
+
+code in finally block always executes, whether or not exception has occured
+
+Allows you to run any cleanup-type statements that you want to execute.

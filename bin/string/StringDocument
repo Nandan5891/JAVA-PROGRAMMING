@@ -1,0 +1,29 @@
+If two or more Strings have the same set of characters in the same sequence then they share the 
+same reference in memory.
+
+String str1="My name is Nandan";
+String str2="My name is Nandan";
+String str3="My name" + " is Nandan";
+
+All the String reference str1,str2, and str3 denote the same String object because character sequence is same.
+===========================================================================================
+Here String is a Class and str is Reference variable.
+String is a final Type class means we can not extends or inherit String class
+It implies on Java.lang.String 
+String is an Immutable class
+Immutable means String in java, once created and initialized cannot be changed on the same reference.
+
+
+===============================================
+object class is super class of all class
+.equals()----> Compare Two String
+Return type of equals is Boolean as true or false
+=======================================
+As we create an object with new keyword then each time it will create difference object even
+content is same
+As:
+String str1= new String("Ram");
+String St2=new String ("Ram");
+Here two object has been created. 
+====================
+StringBuffer and StringBuilder is mutable.
