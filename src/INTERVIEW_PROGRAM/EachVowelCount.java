@@ -15,11 +15,13 @@ public class EachVowelCount {
                 map.put(c, 1);
             }
         }
+        //Traversing the element
         for(Map.Entry<Character,Integer>entry:map.entrySet())
         {
             if(entry.getKey()=='a' || entry.getKey()=='e'|| entry.getKey()=='i'||entry.getKey()=='o'||entry.getKey()=='u');
             {
                 System.out.println(entry.getKey()+ " -->"+entry.getValue());
+
             }
         }
     }
