@@ -15,6 +15,7 @@ public class Test
 	public static void main(String []args) throws IOException  
 	{
 
+		// String program
 		String str="historicalmonument";
 
 		Map<Character,Integer>map= new HashMap<Character,Integer>();
