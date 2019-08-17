@@ -1,0 +1,6 @@
+Java is an object oriented programming language.
+Class is a logical entiry
+Object is a physical entity.
+Object is an instance of class.
+Class is blue print which helps to create an object.
+This is sixth line
